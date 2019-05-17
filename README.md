@@ -62,5 +62,5 @@ Eh bien ce raisonnement n'est pas complétement correct, car "Yala" ne perd pres
 
 Néanmoins, YALA a la particularité d'être toujours très pertinente dans son jeu, car elle ne recourt à Random qu'après avoir sélectionné les meilleurs coups possibles, de plus, vu qu'elle ne repose pas sur des fonctions récursives et une lecture profonde de jeux, elle arrive à jouer de très bons coups en très peu de temps, et ceux quelle que soit la complexité de la situation.
 
-Pour conclure, YALA est une IA rapide et efficace; elle pourrait être améliorée en travaillant sur sa capacité à sortir intelligemment d'une boucle de coups infini.
+Pour conclure, YALA est une IA rapide, efficace et pertinente; elle pourrait être améliorée en travaillant sur sa capacité à sortir intelligemment d'une boucle de coups infini.
  
