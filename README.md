@@ -15,12 +15,17 @@ Notre stratégie repose sur l'idée que dans un jeu à deux joueurs, si notre ad
 
 
 Chaque fois que notre IA doit renvoyer un coup, cette dernière commence par:
+
 -rechercher toutes les cases qu'il lui est permis des joueurs.
+
 -Rechercher les directions qu'elle peut jouer avec chaque case.
+
 Ensuite dans un second temps, notre IA, se projète en jouant chaque coup possible et en évaluant la variation de la grille qu'il génère, et trie en conséquence tous les coups dans trois listes qui la concernent et qui sont :
 une liste de coups qui lui sont favorables, une liste de coups qui font stagner son score, et une liste de coup qui font reculer son score.
+
 Et en parrallel elle trie aussi ces coups dans trois listes qui concernent son adversaire et qui sont :
 une liste de coup qui fait reculer le jeu de mon adversaire, une liste de coup qui n'influence pas son adversaire, et enfin une liste de coup qui fait gagner son adversaire.
+
 Ensuite notre ia, revient a l'état réel de la grille (état que le serveur nous a envoyé), et décide s'il serait plus judicieux d'attaquer ou de défendre, et pour cela elle se base simplement sur le score de la meilleure ligne de son adversaire, si cette dernière à un alignement de plus ou égale trois élement, notre ia défend, et cela dans tous les cas, sauf si mon score est de 4 et que je peux gagner en un coup, et dans ce cas mon IA va plutôt attaquer quel que soit le score de l'adversaire car elle est sure de gagner quoi qu'il en soit.
 
 
