@@ -11,7 +11,8 @@ Elle a la capacité de lire et d'analyser l'état du jeu, et de choisir en cons�
 
 ## Strategie de notre IA: 
 
-Notre stratégie repose sur l'idée que dans un jeu à deux joueurs, si notre adversaire ne peut pas gagner, alors de notre côté nous ne pouvons pas perdre, et donc nous ne pouvons que gagner.
+Notre stratégie repose sur l'idée que dans un jeu à deux joueurs, si notre adversaire est dans l'incapacité de gagner, notre joueur lui sera dans l'incapacité de perdre et gagnera donc à coup sûr.
+
 
 Chaque fois que notre IA doit renvoyer un coup, cette dernière commence par:
 -rechercher toutes les cases qu'il lui est permis des joueurs.
@@ -51,11 +52,11 @@ la réponse est RANDOM, car dans notre raisonnement, si deux coups influence exa
 ## Avantages et inconvénients de la stratégie de notre IA : 
  laya
 Si nous reprenons la phrase avec laquelle nous avons commencé ce document et qui était : 
-"notre stratégie repose sur l'idée que dans un jeu à deux joueurs, si notre adversaire ne peut pas gagner, alors de notre côté nous ne pouvons pas perdre, et donc nous ne pouvons que gagner".
+"notre stratégie repose sur l'idée que dans un jeu à deux joueurs, si notre adversaire est dans l'incapacité de gagner, notre joueur lui sera dans l'incapacité de perdre et gagnera donc à coup sûr. ".
 
 Eh bien ce raisonnement n'est pas complétement correct, car "Yala" ne perd presque jamais dû à son extrême vigilance, mais d'autre part face à une IA adverse qui a un raisonnement similaire, YALA fait presque toujours match nul, et elle finit toujours par se retrouver dans une boucle infinie lorsqu'elle joue contre elle-même .
 
-Néanmoins, LAYA a la particularité d'être toujours très pertinente dans son jeu, car elle ne recourt à Random qu'après avoir sélectionné les meilleurs coups possibles, de plus, vu qu'elle ne repose pas sur des fonctions récursives et une lecture profonde de jeux, elle arrive à jouer de très bons coups un très peu de temps, et ceux quelle que soit la complexité de la situation.
+Néanmoins, YALA a la particularité d'être toujours très pertinente dans son jeu, car elle ne recourt à Random qu'après avoir sélectionné les meilleurs coups possibles, de plus, vu qu'elle ne repose pas sur des fonctions récursives et une lecture profonde de jeux, elle arrive à jouer de très bons coups un très peu de temps, et ceux quelle que soit la complexité de la situation.
 
 Pour conclure, YALA est une IA rapide, efficace et pertinent, elle pourrait être améliorée en travaillant sur sa capacité à sortir intelligemment d'une boucle de coups infini.
  
