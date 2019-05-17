@@ -55,7 +55,6 @@ la réponse est RANDOM, car dans notre raisonnement, si deux coups influence exa
 
 
 ## Avantages et inconvénients de la stratégie de notre IA : 
- laya
 Si nous reprenons la phrase avec laquelle nous avons commencé ce document et qui était : 
 "notre stratégie repose sur l'idée que dans un jeu à deux joueurs, si notre adversaire est dans l'incapacité de gagner, notre joueur lui sera dans l'incapacité de perdre et gagnera donc à coup sûr. ".
 
